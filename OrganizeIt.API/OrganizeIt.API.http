@@ -1,0 +1,6 @@
+@OrganizeIt.API_HostAddress = http://localhost:5110
+
+GET {{OrganizeIt.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
