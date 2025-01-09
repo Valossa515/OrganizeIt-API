@@ -1,9 +1,14 @@
-﻿namespace OrganizeIt.API.Borders.Enums
+﻿using System.ComponentModel;
+
+namespace OrganizeIt.API.Borders.Enums
 {
-    public class Prioridades
+    public enum Prioridades
     {
-        public const string Baixa = "Baixa";
-        public const string Media = "Média";
-        public const string Alta = "Alta";
+        [Description("Baixa")]
+        Baixa = 1,
+        [Description("Média")]
+        Media = 2,
+        [Description("Alta")]
+        Alta = 3
     }
 }
