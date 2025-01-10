@@ -32,5 +32,8 @@ namespace OrganizeIt.API.Repositories.Database
 
         public virtual async Task InsertAllAsync(IEnumerable<TEntity> entities)
             => await _collection.InsertManyAsync(entities);
+
+        public virtual async Task InsertOneAsync(TEntity entity)
+            => await _collection.InsertOneAsync(entity);
     }
 }
