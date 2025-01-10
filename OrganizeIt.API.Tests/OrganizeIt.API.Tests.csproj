@@ -15,6 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OrganizeIt.API.Borders\OrganizeIt.API.Borders.csproj" />
+    <ProjectReference Include="..\OrganizeIt.API.Handlers\OrganizeIt.API.Handlers.csproj" />
+    <ProjectReference Include="..\OrganizeIt.API.Shared\OrganizeIt.API.Shared.csproj" />
+    <ProjectReference Include="..\OrganizeIt.API\OrganizeIt.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

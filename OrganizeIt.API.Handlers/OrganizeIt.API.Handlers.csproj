@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OrganizeIt.API.Borders\OrganizeIt.API.Borders.csproj" />
+    <ProjectReference Include="..\OrganizeIt.API.Shared\OrganizeIt.API.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
